@@ -8,16 +8,16 @@ export default function Navbar() {
     <header className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-7xl">
 
       {/* Navbar */}
-      <div className="flex items-center justify-between px-8 py-4 rounded-full bg-white/80 backdrop-blur-lg border border-blue-100 shadow-2xl">
+      <div className="flex items-center justify-between px-8 py-4 rounded-full bg-white/80 backdrop-blur-lg border border-sky-100 shadow-2xl">
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="bg-blue-500 p-3 rounded-full text-white">
+          <div className="bg-sky-500 p-3 rounded-full text-white">
             <HeartPulse size={22} />
           </div>
 
           <div>
-            <h1 className="text-xl font-bold text-blue-500">
+            <h1 className="text-xl font-bold text-sky-500">
               Dr.Varshini Memorial
             </h1>
 
@@ -34,14 +34,14 @@ export default function Navbar() {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="relative text-gray-700 hover:text-blue-500
+              className="relative text-gray-700 hover:text-sky-500
               after:content-['']
               after:absolute
               after:left-0
               after:-bottom-3
               after:h-[2px]
               after:w-0
-              after:bg-blue-600
+              after:bg-sky-600
               after:transition-all
               after:duration-300
               hover:after:w-full"
@@ -53,14 +53,14 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop Button */}
-        <button className=" hidden md:block bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
+        <button className=" hidden md:block bg-sky-500 hover:bg-sky-700 text-white px-6 py-3 rounded-full font-semibold transition">
          <div className="flex items-center gap-2"> <Calendar size={20} />Book Appointment</div>
         </button>
 
         {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-blue-600"
+          className="md:hidden text-sky-600"
         >
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
@@ -73,7 +73,7 @@ export default function Navbar() {
           isOpen ? "max-h-96 opacity-100 mt-4" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="bg-white rounded-3xl shadow-2xl border border-blue-100 p-6">
+        <div className="bg-white rounded-3xl shadow-2xl border border-sky-100 p-6">
 
           <nav className="flex flex-col gap-5 text-lg font-medium">
 
@@ -97,7 +97,7 @@ export default function Navbar() {
 
           </nav>
 
-          <button className="w-full mt-6 bg-blue-500 hover:bg-blue-700 text-white py-3 rounded-full font-semibold transition">
+          <button className="w-full mt-6 bg-sky-500 hover:bg-sky-700 text-white py-3 rounded-full font-semibold transition">
            <div className="flex items-center gap-2 justify-center"> <Calendar size={20} />Book Appointment</div>
           </button>
 

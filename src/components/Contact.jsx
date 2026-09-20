@@ -2,19 +2,19 @@ import {MessageCircle } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-blue-50">
+    <section id="contact" className="py-20 bg-sky-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
         <div className="text-center mb-16">
 
-          <span className="bg-blue-100 text-blue-500 px-5 py-2 rounded-full font-medium">
+          <span className="bg-sky-100 text-sky-500 px-5 py-2 rounded-full font-medium">
             Contact Us
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             We're Here To
-            <span className="text-blue-500"> Help You</span>
+            <span className="text-sky-500"> Help You</span>
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
@@ -41,7 +41,7 @@ export default function Contact() {
             <div className="mt-10 space-y-8">
 
               <div>
-                <h4 className="font-semibold text-blue-500">Address</h4>
+                <h4 className="font-semibold text-sky-500">Address</h4>
                 <p className="mt-1 text-gray-600">
                   123 Medical Avenue,
                   <br />
@@ -50,21 +50,21 @@ export default function Contact() {
               </div>
 
               <div>
-                <h4 className="font-semibold text-blue-500">Phone</h4>
+                <h4 className="font-semibold text-sky-500">Phone</h4>
                 <p className="mt-2 text-gray-600">
                   +91 98765 43210
                 </p>
               </div>
 
               <div>
-                <h4 className="font-semibold text-blue-500">Email</h4>
+                <h4 className="font-semibold text-sky-500">Email</h4>
                 <p className="mt-2 text-gray-600">
                   info@varshinimemorialhospital.com
                 </p>
               </div>
 
               <div>
-                <h4 className="font-semibold text-blue-500">
+                <h4 className="font-semibold text-sky-500">
                   Working Hours
                 </h4>
                 <p className="mt-2 text-gray-600">
@@ -92,30 +92,30 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Full Name"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-600"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-sky-500"
               />
 
               <input
                 type="email"
                 placeholder="Email Address"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-500"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-sky-500"
               />
 
               <input
                 type="tel"
                 placeholder="Phone Number"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-500"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-sky-500"
               />
 
               <textarea
                 rows="5"
                 placeholder="Your Message"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-500 resize-none"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-sky-500 resize-none"
               ></textarea>
 
               <button
                 type="submit"
-                className="w-full bg-blue-500 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold transition"
+                className="w-full bg-sky-500 hover:bg-sky-700 text-white py-4 rounded-xl font-semibold transition"
               >
                 <div className="flex items-center gap-2 justify-center">
                   <MessageCircle size={20} />

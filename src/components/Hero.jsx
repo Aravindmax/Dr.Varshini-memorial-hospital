@@ -5,11 +5,11 @@ import FadeIn from "../components/FadeIn";
 export default function Hero() {
   return (
     
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-00">
+    <section className="relative overflow-hidden bg-gradient-to-br from-sky-200 via-white to-cyan-00">
 
       {/* Background Blur */}
-      <div className="absolute -top-32 -left-20 h-150 w-150 rounded-full bg-blue-400/15 blur-3xl"></div>
-      {/*<div className="absolute bottom-0 right-0 h-150 w-150 rounded-full bg-blue-300/20 blur-3xl"></div>*/}
+      <div className="absolute -top-32 -left-20 h-150 w-150 rounded-full bg-sky-500/15 blur-3xl"></div>
+      {/*<div className="absolute bottom-0 right-0 h-150 w-150 rounded-full bg-sky-300/20 blur-3xl"></div>*/}
 
       <div className="max-w-7xl mx-auto px-6 pt-40 pb-20">
 
@@ -17,9 +17,9 @@ export default function Hero() {
 
           {/* LEFT CONTENT */}
 
-          <div className="text-center sm:text-left">
+          <div className="">
 
-            <span className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-medium">
+            <span className="inline-flex items-center gap-2 bg-sky-100 text-sky-700 px-5 py-2 rounded-full font-medium">
               <ShieldCheck size={18} />
               Trusted Healthcare Since 1998
             </span>
@@ -28,7 +28,7 @@ export default function Hero() {
               Caring For
               <br />
 
-              <span className="text-blue-500">
+              <span className="text-sky-500">
                 Your Health 
               </span>
             <br/>
@@ -45,12 +45,12 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-5 mt-10 w-full md:w-auto">
 
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sky-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
+              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
                 <Search size={20} />
                 Find a Doctor
               </button>
 
-              <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-3 border-blue-400 bg-white hover:bg-blue-50 px-8 py-4 rounded-full font-semibold">
+              <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-3 border-sky-400 bg-white hover:bg-sky-100 px-8 py-4 rounded-full font-semibold">
                 <Phone size={20} />
                 Emergency
               </button>
@@ -62,7 +62,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-8 mt-16">
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-500">
+                <h2 className="text-4xl font-bold text-sky-500">
                   25+
                 </h2>
 
@@ -72,7 +72,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-500">
+                <h2 className="text-4xl font-bold text-sky-500">
                   20K+
                 </h2>
 
@@ -82,7 +82,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-500">
+                <h2 className="text-4xl font-bold text-sky-500">
                   24/7
                 </h2>
 
@@ -105,8 +105,8 @@ export default function Hero() {
 
               <div className="flex items-center gap-3">
 
-                <div className="bg-blue-100 p-3 rounded-full">
-                  <Star className="text-blue-500" />
+                <div className="bg-sky-100 p-3 rounded-full">
+                  <Star className="text-sky-500" />
                 </div>
 
                 <div>
@@ -139,7 +139,7 @@ export default function Hero() {
 
             <div className="absolute bottom-8 right-6 bg-white/90 backdrop-blur-lg rounded-2xl shadow-xl p-6">
 
-              <h3 className="text-3xl font-bold text-blue-500">
+              <h3 className="text-3xl font-bold text-sky-500">
                 98%
               </h3>
 

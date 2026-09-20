@@ -2,7 +2,7 @@ import { Search, PhoneCall, ArrowRight } from "lucide-react";
 
 export default function AppointmentCTA() {
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-500 to-cyan-600">
+    <section className="py-20 bg-gradient-to-r from-sky-500 to-cyan-600">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="bg-white rounded-[32px] shadow-2xl p-8 lg:p-14">
@@ -12,13 +12,13 @@ export default function AppointmentCTA() {
             {/* Left Side */}
             <div>
 
-              <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full font-medium">
+              <span className="inline-block px-4 py-2 bg-sky-100 text-sky-600 rounded-full font-medium">
                 Book an Appointment
               </span>
 
               <h2 className="mt-6 text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 Your Health Deserves
-                <span className="text-blue-600"> Expert Care</span>
+                <span className="text-sky-500"> Expert Care</span>
               </h2>
 
               <p className="mt-6 text-gray-600 text-lg leading-8">
@@ -29,12 +29,12 @@ export default function AppointmentCTA() {
 
               <div className="flex flex-col sm:flex-row gap-5 mt-10">
 
-                <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
+                <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
                   <Search size={20} />
                   Find a Doctor
                 </button>
 
-                <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-2 border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
+                <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-2 border-sky-500 text-sky-600 hover:bg-sky-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
                   <PhoneCall size={20} />
                   Call Now
                 </button>
@@ -45,7 +45,7 @@ export default function AppointmentCTA() {
 
             {/* Right Side */}
 
-            <div className="bg-blue-50 rounded-3xl p-8">
+            <div className="bg-sky-50 rounded-3xl p-8">
 
               <h3 className="text-2xl font-bold text-gray-900">
                 Why Book With Us?
@@ -80,7 +80,7 @@ export default function AppointmentCTA() {
 
               </div>
 
-              <button className="w-full mt-10 bg-blue-500 hover:bg-blue-700 text-white py-4 rounded-2xl flex items-center justify-center gap-2 font-semibold transition">
+              <button className="w-full mt-10 bg-sky-500 hover:bg-sky-700 text-white py-4 rounded-2xl flex items-center justify-center gap-2 font-semibold transition">
 
                 Get Started
                 <ArrowRight size={20} />

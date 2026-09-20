@@ -26,31 +26,31 @@ export default function Footer() {
 
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-blue-400 transition">
+                <a href="#" className="hover:text-sky-400 transition">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#services" className="hover:text-blue-400 transition">
+                <a href="#services" className="hover:text-sky-400 transition">
                   Services
                 </a>
               </li>
 
               <li>
-                <a href="#doctors" className="hover:text-blue-400 transition">
+                <a href="#doctors" className="hover:text-sky-400 transition">
                   Doctors
                 </a>
               </li>
 
               <li>
-                <a href="#about" className="hover:text-blue-400 transition">
+                <a href="#about" className="hover:text-sky-400 transition">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#contact" className="hover:text-blue-400 transition">
+                <a href="#contact" className="hover:text-sky-400 transition">
                   Contact
                 </a>
               </li>
@@ -98,15 +98,15 @@ export default function Footer() {
 
             {/* Social Links */}
             <div className="flex gap-5 mt-8">
-              <a href="#" className="hover:text-blue-400 transition">
+              <a href="#" className="hover:text-sky-400 transition">
                 Facebook
               </a>
 
-              <a href="#" className="hover:text-blue-400 transition">
+              <a href="#" className="hover:text-sky-400 transition">
                 Instagram
               </a>
 
-              <a href="#" className="hover:text-blue-400 transition">
+              <a href="#" className="hover:text-sky-400 transition">
                 LinkedIn
               </a>
             </div>

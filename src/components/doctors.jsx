@@ -24,7 +24,7 @@ const doctors = [
 
 export default function Doctors() {
   return (
-    <section id="doctors" className="py-20 bg-gradient-to-t from-blue-200 to-white">
+    <section id="doctors" className="py-20 bg-gradient-to-t from-sky-300 to-white">
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -32,13 +32,13 @@ export default function Doctors() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <span className="bg-blue-50 text-blue-700 px-5 py-2 rounded-full font-medium">
+          <span className="bg-sky-50 text-sky-700 px-5 py-2 rounded-full font-medium">
             Our Specialists
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             Meet Our
-            <span className="text-blue-500"> Expert Doctors</span>
+            <span className="text-sky-500"> Expert Doctors</span>
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 leading-8">
@@ -71,7 +71,7 @@ export default function Doctors() {
                   {doctor.name}
                 </h3>
 
-                <p className="mt-1 text-blue-500 font-semibold">
+                <p className="mt-1 text-sky-500 font-semibold">
                   {doctor.speciality}
                 </p>
 
@@ -93,7 +93,7 @@ export default function Doctors() {
 
                 </div>
 
-                <button className="mt-5 w-full flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white py-3 rounded-xl font-semibold">
+                <button className="mt-5 w-full flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-700 transition text-white py-3 rounded-xl font-semibold">
 
                   <Calendar size={20} />
                   Book Appointment

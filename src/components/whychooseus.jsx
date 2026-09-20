@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
   return (
     <section
       id="about"
-      className="bg-gradient-to-b from-white to-blue-100 blur-1xl py-20"
+      className="bg-gradient-to-b from-white to-sky-200 blur-1xl py-20"
     >
       <div className="max-w-7xl mx-auto px-6">
 
@@ -44,13 +44,13 @@ export default function WhyChooseUs() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <span className="inline-block bg-blue-50 text-blue-700 px-4 py-2 rounded-full font-medium">
+          <span className="inline-block bg-sky-50 text-sky-700 px-4 py-2 rounded-full font-medium">
             Why Choose Us
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             Healthcare You Can
-            <span className="text-blue-500"> Trust</span>
+            <span className="text-sky-500"> Trust</span>
           </h2>
 
           <p className="mt-6 text-gray-600 text-lg leading-8">
@@ -70,7 +70,7 @@ export default function WhyChooseUs() {
               key={index}
               className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3"
             >
-              <div className="w-16 h-16 rounded-2xl bg-blue-100 text-blue-500 flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 rounded-2xl bg-sky-100 text-sky-500 flex items-center justify-center group-hover:bg-sky-500 group-hover:text-white transition-all duration-300">
                 {feature.icon}
               </div>
 

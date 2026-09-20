@@ -25,19 +25,19 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-blue-100">
+    <section className="py-20 bg-gradient-to-b from-white to-sky-200">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
         <div className="text-center mb-16">
 
-          <span className="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-500 font-medium">
+          <span className="inline-block px-4 py-2 rounded-full bg-sky-100 text-sky-500 font-medium">
             Our Achievements
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             Trusted By Thousands of
-            <span className="text-blue-500"> Families</span>
+            <span className="text-sky-500"> Families</span>
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
@@ -58,11 +58,11 @@ export default function Stats() {
               className="bg-white rounded-3xl p-10 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 text-center"
             >
 
-              <div className="mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 text-blue-500">
+              <div className="mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-sky-100 text-sky-500">
                 {item.icon}
               </div>
 
-              <h3 className="mt-6 text-5xl font-bold text-blue-500">
+              <h3 className="mt-6 text-5xl font-bold text-sky-500">
                 {item.number}
               </h3>
 

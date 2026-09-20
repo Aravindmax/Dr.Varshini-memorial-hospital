@@ -55,7 +55,7 @@ export default function Stats() {
 
             <div
               key={index}
-              className="bg-white rounded-3xl p-10 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 text-center"
+              className="bg-white border-1 border-sky-800 rounded-3xl p-10 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 text-center"
             >
 
               <div className="mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-sky-100 text-sky-500">

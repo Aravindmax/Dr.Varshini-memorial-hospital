@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
 
           {/* Contact Information */}
-          <div className="bg-white rounded-3xl shadow-lg p-10">
+          <div className="bg-white border-1 border-sky-800 rounded-3xl shadow-lg p-10">
 
             <h3 className="text-3xl font-bold text-gray-900">
               Get In Touch
@@ -81,7 +81,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-3xl shadow-lg p-10">
+          <div className="bg-white border-1 border-sky-800 rounded-3xl shadow-lg p-10">
 
             <h3 className="text-3xl font-bold text-gray-900">
               Send a Message

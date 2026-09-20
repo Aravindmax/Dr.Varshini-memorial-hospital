@@ -56,7 +56,7 @@ export default function Doctors() {
 
             <div
               key={index}
-              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3"
+              className="bg-white border-2 border-sky-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3"
             >
 
               <img

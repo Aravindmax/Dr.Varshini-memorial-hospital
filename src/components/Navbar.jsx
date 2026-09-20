@@ -12,12 +12,12 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="bg-blue-600 p-3 rounded-full text-white">
+          <div className="bg-blue-500 p-3 rounded-full text-white">
             <HeartPulse size={22} />
           </div>
 
           <div>
-            <h1 className="text-xl font-bold text-blue-700">
+            <h1 className="text-xl font-bold text-blue-500">
               CarePlus
             </h1>
 
@@ -34,7 +34,7 @@ export default function Navbar() {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="relative text-gray-700 hover:text-blue-600
+              className="relative text-gray-700 hover:text-blue-500
               after:content-['']
               after:absolute
               after:left-0
@@ -53,7 +53,7 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
+        <button className="hidden md:block bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
           Book Appointment
         </button>
 
@@ -97,7 +97,7 @@ export default function Navbar() {
 
           </nav>
 
-          <button className="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-full font-semibold transition">
+          <button className="w-full mt-6 bg-blue-500 hover:bg-blue-700 text-white py-3 rounded-full font-semibold transition">
             Book Appointment
           </button>
 

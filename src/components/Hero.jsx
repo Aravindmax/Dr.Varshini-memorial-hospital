@@ -8,10 +8,10 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-50">
 
       {/* Background Blur */}
-      <div className="absolute -top-32 -left-20 h-96 w-96 rounded-full bg-blue-300/20 blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-cyan-300/20 blur-3xl"></div>
+      <div className="absolute -top-32 -left-20 h-150 w-150 rounded-full bg-blue-400/15 blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 h-150 w-150 rounded-full bg-blue-300/20 blur-3xl"></div>
 
-      <div className="max-w-7xl mx-auto px-6 pt-42 pb-20">
+      <div className="max-w-7xl mx-auto px-6 pt-38 pb-20">
 
         <div className="grid lg:grid-cols-2 items-center gap-16">
 
@@ -28,7 +28,7 @@ export default function Hero() {
               Caring For
               <br />
 
-              <span className="text-blue-600">
+              <span className="text-blue-500">
                 Your Health 
               </span>
             <br/>
@@ -45,7 +45,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-5 mt-10">
 
-              <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
+              <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
 
                 <Calendar size={20} />
                 Book Appointment
@@ -66,7 +66,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-8 mt-16">
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-600">
+                <h2 className="text-4xl font-bold text-blue-500">
                   25+
                 </h2>
 
@@ -76,7 +76,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-600">
+                <h2 className="text-4xl font-bold text-blue-500">
                   20K+
                 </h2>
 
@@ -134,7 +134,7 @@ export default function Hero() {
               <img
                 src={heroImg}
                 alt="Doctor"
-                className="w-full h-[650px] object-cover"
+                className="w-full h-[500px] object-cover"
               />
 
             </div>
@@ -143,7 +143,7 @@ export default function Hero() {
 
             <div className="absolute bottom-8 right-6 bg-white/90 backdrop-blur-lg rounded-2xl shadow-xl p-6">
 
-              <h3 className="text-3xl font-bold text-blue-600">
+              <h3 className="text-3xl font-bold text-blue-500">
                 98%
               </h3>
 

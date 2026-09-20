@@ -27,20 +27,16 @@ export default function AppointmentCTA() {
                 technology.
               </p>
 
-              <div className="flex flex-wrap gap-5 mt-10">
+              <div className="flex flex-col sm:flex-row gap-5 mt-10">
 
-                <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
+                <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
+                  <Search size={20} />
+                  Find a Doctor
+                </button>
 
-                <Search size={20} />
-                Find a Doctor
-
-              </button>
-
-                <button className="flex items-center gap-2 border-2 border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
-
+                <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-2 border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
                   <PhoneCall size={20} />
                   Call Now
-
                 </button>
 
               </div>

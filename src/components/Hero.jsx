@@ -17,14 +17,14 @@ export default function Hero() {
 
           {/* LEFT CONTENT */}
 
-          <div>
+          <div className="text-center sm:text-left">
 
             <span className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-medium">
               <ShieldCheck size={18} />
               Trusted Healthcare Since 1998
             </span>
 
-            <h1 className="mt-8 text-5xl md:text-6xl lg:text-6xl font-extrabold leading-tight text-gray-900">
+            <h1 className="mt-8 text-5xl font-extrabold md:text-6xl font-extrabold lg:text-6xl font-extrabold leading-tight text-gray-900">
               Caring For
               <br />
 
@@ -43,20 +43,16 @@ export default function Hero() {
 
             {/* Buttons */}
 
-            <div className="flex flex-wrap gap-5 mt-10">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-5 mt-10 w-full md:w-auto">
 
-              <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
-
+              <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sky-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
                 <Search size={20} />
                 Find a Doctor
-
               </button>
 
-              <button className="flex items-center gap-2 border-3 border-blue-400 bg-white hover:bg-blue-50 px-8 py-4 rounded-full font-semibold">
-
+              <button className="w-full sm:w-auto flex items-center justify-center gap-2 border-3 border-blue-400 bg-white hover:bg-blue-50 px-8 py-4 rounded-full font-semibold">
                 <Phone size={20} />
                 Emergency
-
               </button>
 
             </div>

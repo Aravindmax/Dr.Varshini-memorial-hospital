@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HeartPulse, Menu, X } from "lucide-react";
+import { Calendar, HeartPulse, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +18,10 @@ export default function Navbar() {
 
           <div>
             <h1 className="text-xl font-bold text-blue-500">
-              CarePlus
+              Dr.Varshini Memorial
             </h1>
 
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-600">
               Hospital
             </p>
           </div>
@@ -53,14 +53,14 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
-          Book Appointment
+        <button className=" hidden md:block bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
+         <div className="flex items-center gap-2"> <Calendar size={20} />Book Appointment</div>
         </button>
 
         {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-blue-700"
+          className="md:hidden text-blue-600"
         >
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
@@ -98,7 +98,7 @@ export default function Navbar() {
           </nav>
 
           <button className="w-full mt-6 bg-blue-500 hover:bg-blue-700 text-white py-3 rounded-full font-semibold transition">
-            Book Appointment
+           <div className="flex items-center gap-2 justify-center"> <Calendar size={20} />Book Appointment</div>
           </button>
 
         </div>

@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h2 className="text-3xl font-bold text-white">
-              CarePlus Hospital
+              Dr.Varshini Memorial Hospital
             </h2>
 
             <p className="mt-5 leading-7 text-gray-400">
@@ -92,7 +92,7 @@ export default function Footer() {
 
               <p>
                 <span className="font-semibold text-white">Email:</span><br />
-                info@careplushospital.com
+                info@varshinimemorialhospital.com
               </p>
             </div>
 
@@ -122,18 +122,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center">
 
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} CarePlus Hospital. All Rights Reserved.
+            © {new Date().getFullYear()} Dr.Varshini Memorial Hospital. All Rights Reserved.
           </p>
 
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-blue-400 transition">
-              Privacy Policy
-            </a>
-
-            <a href="#" className="hover:text-blue-400 transition">
-              Terms & Conditions
-            </a>
-          </div>
 
         </div>
 

@@ -32,13 +32,13 @@ export default function Doctors() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <span className="bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-medium">
+          <span className="bg-blue-50 text-blue-700 px-5 py-2 rounded-full font-medium">
             Our Specialists
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             Meet Our
-            <span className="text-blue-600"> Expert Doctors</span>
+            <span className="text-blue-500"> Expert Doctors</span>
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 leading-8">
@@ -62,7 +62,7 @@ export default function Doctors() {
               <img
                 src={doctor.image}
                 alt={doctor.name}
-                className="w-full h-80 object-cover"
+                className="w-full h-60 object-cover"
               />
 
               <div className="p-8">
@@ -71,29 +71,29 @@ export default function Doctors() {
                   {doctor.name}
                 </h3>
 
-                <p className="mt-2 text-blue-600 font-semibold">
+                <p className="mt-1 text-blue-500 font-semibold">
                   {doctor.speciality}
                 </p>
 
-                <div className="flex items-center justify-between mt-6">
+                <div className="flex items-center justify-between mt-1">
 
-                  <span className="text-gray-500">
+                  <span className="text-gray-600">
                     {doctor.experience}
                   </span>
 
                   <div className="flex items-center gap-1 text-yellow-500">
 
+                    {/*<Star size={18} fill="currentColor" />
                     <Star size={18} fill="currentColor" />
                     <Star size={18} fill="currentColor" />
                     <Star size={18} fill="currentColor" />
-                    <Star size={18} fill="currentColor" />
-                    <Star size={18} fill="currentColor" />
+                    <Star size={18} fill="currentColor" />*/}
 
                   </div>
 
                 </div>
 
-                <button className="mt-8 w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 transition text-white py-3 rounded-xl font-semibold">
+                <button className="mt-5 w-full flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white py-3 rounded-xl font-semibold">
 
                   <Calendar size={20} />
                   Book Appointment

@@ -1,8 +1,8 @@
-import { CalendarDays, PhoneCall, ArrowRight } from "lucide-react";
+import { Search, PhoneCall, ArrowRight } from "lucide-react";
 
 export default function AppointmentCTA() {
   return (
-    <section className="py-24 bg-gradient-to-r from-blue-600 to-cyan-600">
+    <section className="py-24 bg-gradient-to-r from-blue-500 to-cyan-600">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="bg-white rounded-[32px] shadow-2xl p-8 lg:p-14">
@@ -29,14 +29,14 @@ export default function AppointmentCTA() {
 
               <div className="flex flex-wrap gap-5 mt-10">
 
-                <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition">
+                <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
 
-                  <CalendarDays size={20} />
-                  Book Appointment
+                <Search size={20} />
+                Find a Doctor
 
-                </button>
+              </button>
 
-                <button className="flex items-center gap-2 border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
+                <button className="flex items-center gap-2 border-2 border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-full font-semibold transition">
 
                   <PhoneCall size={20} />
                   Call Now
@@ -84,7 +84,7 @@ export default function AppointmentCTA() {
 
               </div>
 
-              <button className="w-full mt-10 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-2xl flex items-center justify-center gap-2 font-semibold transition">
+              <button className="w-full mt-10 bg-blue-500 hover:bg-blue-700 text-white py-4 rounded-2xl flex items-center justify-center gap-2 font-semibold transition">
 
                 Get Started
                 <ArrowRight size={20} />

@@ -1,15 +1,15 @@
-import { Calendar, Phone, ShieldCheck, Star } from "lucide-react";
+import { Calendar, Search, Phone, ShieldCheck, Star } from "lucide-react";
 import heroImg from "../assets/hero.jpg"; // Change the path if needed
 import FadeIn from "../components/FadeIn";
 
 export default function Hero() {
   return (
     
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-50">
+    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-00">
 
       {/* Background Blur */}
       <div className="absolute -top-32 -left-20 h-150 w-150 rounded-full bg-blue-400/15 blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 h-150 w-150 rounded-full bg-blue-300/20 blur-3xl"></div>
+      {/*<div className="absolute bottom-0 right-0 h-150 w-150 rounded-full bg-blue-300/20 blur-3xl"></div>*/}
 
       <div className="max-w-7xl mx-auto px-6 pt-38 pb-20">
 
@@ -47,12 +47,12 @@ export default function Hero() {
 
               <button className="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 transition text-white px-8 py-4 rounded-full shadow-lg font-semibold">
 
-                <Calendar size={20} />
-                Book Appointment
+                <Search size={20} />
+                Find a Doctor
 
               </button>
 
-              <button className="flex items-center gap-2 border border-blue-200 bg-white hover:bg-blue-50 px-8 py-4 rounded-full font-semibold">
+              <button className="flex items-center gap-2 border-3 border-blue-400 bg-white hover:bg-blue-50 px-8 py-4 rounded-full font-semibold">
 
                 <Phone size={20} />
                 Emergency
@@ -86,7 +86,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <h2 className="text-4xl font-bold text-blue-600">
+                <h2 className="text-4xl font-bold text-blue-500">
                   24/7
                 </h2>
 
@@ -110,7 +110,7 @@ export default function Hero() {
               <div className="flex items-center gap-3">
 
                 <div className="bg-blue-100 p-3 rounded-full">
-                  <Star className="text-blue-600" />
+                  <Star className="text-blue-500" />
                 </div>
 
                 <div>

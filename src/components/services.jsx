@@ -63,13 +63,13 @@ export default function Services() {
 
         <div className="text-center max-w-3xl mx-auto">
 
-          <span className="bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-medium">
+          <span className="bg-blue-50 text-blue-700 px-5 py-2 rounded-full font-medium">
             Our Services
           </span>
 
           <h2 className="mt-6 text-4xl md:text-5xl font-bold text-gray-900">
             Complete Healthcare
-            <span className="text-blue-600"> Solutions</span>
+            <span className="text-blue-500"> Solutions</span>
           </h2>
 
           <p className="mt-6 text-gray-600 text-lg leading-8">
@@ -86,9 +86,9 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group bg-blue-50 rounded-3xl p-8 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:-translate-y-3 shadow-md hover:shadow-2xl"
+              className="group bg-blue-100 rounded-3xl p-8 hover:bg-blue-500 hover:text-white transition-all duration-300 hover:-translate-y-3 shadow-md hover:shadow-2xl"
             >
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-white text-blue-600 group-hover:bg-white group-hover:text-blue-600 shadow-md">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-white text-blue-500 group-hover:bg-blue-500 group-hover:text-white shadow-md">
                 {service.icon}
               </div>
 

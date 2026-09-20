@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute -top-32 -left-20 h-96 w-96 rounded-full bg-blue-300/20 blur-3xl"></div>
       <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-cyan-300/20 blur-3xl"></div>
 
-      <div className="max-w-7xl px-6 pt-42 pb-20">
+      <div className="max-w-7xl mx-auto px-6 pt-42 pb-20">
 
         <div className="grid lg:grid-cols-2 items-center gap-16">
 

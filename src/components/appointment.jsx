@@ -2,7 +2,7 @@ import { Search, PhoneCall, ArrowRight } from "lucide-react";
 
 export default function AppointmentCTA() {
   return (
-    <section className="py-24 bg-gradient-to-r from-blue-500 to-cyan-600">
+    <section className="py-20 bg-gradient-to-r from-blue-500 to-cyan-600">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="bg-white rounded-[32px] shadow-2xl p-8 lg:p-14">

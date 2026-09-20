@@ -24,7 +24,7 @@ const doctors = [
 
 export default function Doctors() {
   return (
-    <section id="doctors" className="py-24 bg-gradient-to-t from-blue-200 to-white">
+    <section id="doctors" className="py-20 bg-gradient-to-t from-blue-200 to-white">
 
       <div className="max-w-7xl mx-auto px-6">
 
